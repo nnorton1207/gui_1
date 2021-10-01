@@ -1,0 +1,160 @@
+<!-- 
+Name: Noah Norton
+File: index.html
+Date created: 9/16/21
+Assignment: hw1
+About: This is a webpage that I created detailing things about me to get to
+know me better. It includes some information about myself in few formats,
+along with a list of my favorite songs from a game I play.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>About me</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!--Image that displays to show that my CSS is valid, in accordance w3c's CSS validation service. Same deal with my HTML.-->
+    <p>
+      <a href="http://jigsaw.w3.org/css-validator/check/referer">
+          <img style="border:0;width:88px;height:31px"
+              src="http://jigsaw.w3.org/css-validator/images/vcss"
+              alt="Valid CSS!" />
+      </a>
+    </p>
+    <!--My webpage header. Gives the user an idea of what they'll find on this site.-->
+    <header id="main-header">All About Me :)</header>
+
+    <!--A link to a 24/7 lofi hip-hop beats youtube livestream, to listen to while on my page.-->
+    <a href="https://www.youtube.com/watch?v=5qap5aO4i9A">Chill out while you're here.</a>
+    <hr>
+    
+    <!--This section is a short intro to this page. Curt, but it gets the sentiment across.-->
+    <section>
+      <h3 id="intro"><em>Who am I?</em></h3>
+      <p>
+        Hello! I'm a junior-year Computer Science student who's still figuring
+        things out. Nice to meet you! In this web page you'll learn a few things
+        about me.
+      </p>
+      <hr>
+    </section>
+
+    <!-- This section is some basic information about me. Gives my name, age, gender, and preferred pronouns.
+    I use an image of myself as the center-point for this section.-->
+    <section>
+      <h3 id="personal">Some Basic Information</h3>
+      <a href="images/noah_selfie.jpg"></a>
+      <img src="images/noah_selfie.jpg" alt="A photo of Noah Norton." height="250">
+
+      <ul id="noah-info">
+        <li>Name: Noah Joesph Norton</li>
+        <li>Age: 20 years old</li>
+        <li>Gender: Male</li>
+        <li>Pronouns: He/They</li>
+      </ul>
+    </section>
+    <hr>
+
+    <!-- This section denotes the "Hobbies and Interests tab seen on the webpage. it is made of two paragraphs."-->
+    <section>
+      <h3 id="hobbies">Hobbies and Interests</h3>
+      <p>
+        One of the big things that I'm into at the moment is baking. I've been collecting
+        recipes online and putting them to good use at the end of the week, to tasty results!
+        I'm currently planning on making a cheesecake tomorrow, and am really looking forward
+        to it!
+      </p>
+
+      <p>
+        Another one of my hobbies is playing video games, the one currently taking most of my time being
+        Final Fantasy 14 Online. The game has a great storyline, and with the new expansion Endwalker coming
+        out this November, I'll have plenty to do in-game!
+      </p>
+    </section>
+    <hr>
+
+    <!-- This section denotes the portion of the site where I list my top ten
+    tracks from the MMORPG FFXIV. I use a table to create the rankings chart on the page.-->
+    <section>
+      <h3 id="fav-songs">Top Ten Tracks from <abbr title="Final Fantasy 14"></abbr>FFXIV</h3>
+      <p>
+        One of my favorite parts of FFXIV is the music of the game. From background music
+        to boss battle themes, here's my top 10 tracks!
+      </p>
+      <div>CAUTION: Some songs may contain spoilers for Shadowbringers/Stormblood.</div>
+      <table id="top-ten">
+        <thead>
+          <tr>
+            <th><abbr title="1 is the highest, 10 is the lowest.">Rank</abbr></th>
+            <th>Song Name</th>
+            <th><abbr title="Denotes which story expansion the music track orginated from.">Expansion</abbr></th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td><a href="https://youtu.be/SSYGILOL-tg">He Who Brings Shadow</a></td>
+            <td>Shadowbringers</td>
+          </tr>
+
+          <tr>
+            <td>2</td>
+            <td><a href="https://youtu.be/yIDw2Gfg-IU">Tomorrow and Tomorrow</a></td>
+            <td>Shadowbringers</td>
+          </tr>
+
+          <tr>
+            <td>3</td>
+            <td><a href="https://youtu.be/n-on8ICL-zs">Promises to Keep</a></td>
+            <td>Shadowbringers</td>
+          </tr>
+          
+          <tr>
+            <td>4</td>
+            <td><a href="https://youtu.be/MLhbOF9FO4s">Onslaught</a></td>
+            <td>Stormblood</td>
+          </tr>
+
+          <tr>
+            <td>5</td>
+            <td><a href="https://youtu.be/BvE9HQZJUK4">The Queen Awakens</a></td>
+            <td>Shadowbringers</td>
+          </tr>
+
+          <tr>
+            <td>6</td>
+            <td><a href="https://youtu.be/_uQDMCwO1uo">Gates of Paradise - The Garden of Ru'Hmet</a></td>
+            <td>Stormblood</td>
+          </tr>
+
+          <tr>
+            <td>7</td>
+            <td><a href="https://youtu.be/MZtNNTn_CIY">He Rises Above</a></td>
+            <td>Stormblood</td>
+          </tr>
+          
+          <tr>
+            <td>8</td>
+            <td><a href="https://youtu.be/JeKbCcq9gT8">Moebius</a></td>
+            <td>Heavensward</td>
+          </tr>
+
+          <tr>
+            <td>9</td>
+            <td><a href="https://youtu.be/MDG1rIz1S7k">Thunder Rolls</a></td>
+            <td>A Realm Reborn</td>
+          </tr>
+
+          <tr>
+            <td>10</td>
+            <td><a href="https://youtu.be/QaHdes6rnU8">Tranquility</a></td>
+            <td>A Realm Reborn</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </body>
+</html>

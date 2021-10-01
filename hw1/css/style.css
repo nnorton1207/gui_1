@@ -1,0 +1,54 @@
+/* Sets page background to black, fonts used to one of the three listed, aligns
+text to center of screen, colors text white.*/
+body {
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+}
+
+#main-header {
+    color: rgb(255, 0, 255);
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+}
+/* Setting header colors to dark cyan.*/
+h3 {
+    color: darkcyan;
+    font: italic;
+}
+
+ul {
+    color: rgb(173, 0, 173);
+}
+/* Sets image border color and rounds edges*/
+img {
+    border: 10px solid darkcyan;
+    border-radius: 25px;
+}
+
+/*Setting table border colors, rounded corners, and centering in middle of screen.*/
+table, th, td{
+    border: 1px solid cyan;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    color: rgb(173, 0, 173);
+}
+
+/*Setting link colors*/
+a:link {
+    color: lightblue;
+}
+
+a:visited {
+    color: lightpink;
+}
+
+a:hover {
+    color: lightyellow;
+}
