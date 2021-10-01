@@ -1,0 +1,12 @@
+body {
+    display: block;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:link {
+    text-decoration: none;
+}
