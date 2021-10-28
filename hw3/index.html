@@ -1,15 +1,43 @@
+<!-- 
+Name: Noah Norton
+File: index.html
+Date created: 9/16/21
+Assignment: hw3
+About: This assignment was all about creating a table that gives the products of all possible values
+from the first row, first column down to the last row, last column. 
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Assignment 3</title>
     <meta charset="utf-8">
+    <!--stylesheets-->
     <link href="css/table.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--[if lt IE 9]>
-   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"> </script>   <![endif]-->
+    
 </head>
 <body>
-    
-</body>
+    <div>
+        <table>
+            <!--This form collects the information needed to make the table.-->
+            <form>
+                <label for="minColVal">minimum column value:</label>
+                <input type="text" id="minColVal" name="minCol"><br>
+                <label for="maxColVal">maximum column value:</label>
+                <input type="text" id="maxColVal" name="maxCol"><br>
+        
+                <label for="minRowVal">minimum row value:</label>
+                <input type="text" id="minRowVal" name="minRow"><br>
+                <label for="maxRowVal">maximum row value:</label>
+                <input type="text" id="maxRowVal" name="maxRow"><br>
+                
+                <!--When button is pressed, create table.-->
+                <input type="button" onclick="makeTable()" value="Create Table"><br>
+            </form> 
+        </table>
+    </div>
 
+    <!--Scripts-->
+    <script src="js/table.js"></script>
+</body>
 </html>
