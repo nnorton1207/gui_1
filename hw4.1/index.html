@@ -1,0 +1,50 @@
+<!-- 
+Name: Noah Norton
+File: index.html
+Date created: 11/22/21
+Assignment: hw4.1
+About: This assignment tasked me with taking my code from hw3 and rewriting the input
+    validation using jquery. I'd like to think that I was successful ^^;
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Assignment 4.1</title>
+    <meta charset="utf-8">
+    <!--stylesheets-->
+    <link href="css/table.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+</head>
+
+<body>
+    <div>
+
+        <!--This form collects the information needed to make the table.-->
+        <form id="inputForm">
+            <label for="minColVal">minimum column value:</label>
+            <input type="number" id="minColVal" name="minCol" required min="-50" max="50"><br>
+            <label for="maxColVal">maximum column value:</label>
+            <input type="number" id="maxColVal" name="maxCol" required min="-50" max="50"><br>
+        
+            <label for="minRowVal">minimum row value:</label>
+            <input type="number" id="minRowVal" name="minRow" required min="-50" max="50"><br>
+            <label for="maxRowVal">maximum row value:</label>
+            <input type="number" id="maxRowVal" name="maxRow" required min="-50" max="50"><br>
+        
+            <!--When button is pressed, create table.-->
+            <input type="button" onclick="makeTable()" value="Create Table"><br>
+        </form>
+        
+        <table id="table">
+            <!-- JS dynamically adds table based on the form -->
+        </table>
+    </div>
+
+    <!--Scripts-->
+    <script src="js/table.js"></script>
+</body>
+</html>

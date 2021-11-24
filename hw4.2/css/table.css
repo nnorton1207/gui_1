@@ -1,0 +1,27 @@
+form {
+    background-color: black;
+    font-family: 'Arial';
+    width: fit-content;
+    display: block;
+}
+label {
+    color: white;
+    border-top: 3px solid gray;
+}
+input {
+    display: block;
+}
+
+th {
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+}
+td {
+    text-align: center;
+    border: 2px solid black;
+}
+
+#myTabs {
+    width: fit-content;
+}
