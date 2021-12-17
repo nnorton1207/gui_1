@@ -85,7 +85,7 @@ function fillTileRack() {
         }
 
         $("<img/>", {
-            src: "../graphics/tiles/Scrabble_Tile_" + piece.letter + ".jpg",
+            src: "./graphics/tiles/Scrabble_Tile_" + piece.letter + ".jpg",
             letter: piece.letter,
             value: piece.value,
             class: "ui-widget-content"
