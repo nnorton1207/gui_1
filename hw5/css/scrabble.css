@@ -1,0 +1,37 @@
+/*
+    Name: Noah Norton
+    File: scrabble.css
+    Date created: 12/14/21
+    Assignment: hw5
+    About: This file formats the webpage.
+*/
+
+body {
+    width: 60%;
+    margin: auto;
+    background-color: #801423;
+    text-align: center;
+}
+
+p {
+    color: white;
+}
+
+#buttons{
+    display: inline;
+    width: 50px;
+}
+
+#tile_rack {
+    height: 100px;
+    width: 400px;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../graphics/scrabble-tile-holder-406774_640.png");
+}
+
+#tile_rack > img {
+    width: 50px;
+}

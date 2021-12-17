@@ -1,0 +1,55 @@
+<!--
+    Name: Noah Norton
+    File: index.html
+    Date created: 12/14/21
+    Assignment: hw5
+    About: This assignment tasks me with creating a one-line scrabble board with
+        basic functionality that allows the user to play solo. Credit to Ramon
+        Meza for the JSON file used in generating the tiles randomly.
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Assignment 5</title>
+        <meta charset="utf-8">
+
+        <!--stylesheets-->
+        <link href="css/scrabble.css" rel="stylesheet"
+        <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--scripts-->
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    </head>
+    <body>
+        <div id="content">
+            <div id="score">
+                <p>Score: 0</p>
+            </div>
+
+            <div id="board">
+                <img multi="normal" src="graphics/board/normal_space.png" class="ui-widget-header">
+                <img multi="normal" src="graphics/board/normal_space.png" class="ui-widget-header">
+                <img multi="double word" src="graphics/board/double_word_score_space.png" class="ui-widget-header">
+                <img multi="normal" src="graphics/board/normal_space.png" class="ui-widget-header">
+                <img multi="normal" src="graphics/board/normal_space.png" class="ui-widget-header">
+                <img multi="double word" src="graphics/board/double_word_score_space.png" class="ui-widget-header">
+                <img multi="normal" src="graphics/board/normal_space.png" class="ui-widget-header">
+                <img multi="normal" src="graphics/board/normal_space.png" class="ui-widget-header">
+            </div>
+
+            <div id="buttons">
+                <button id="next_word">Next Word</button>
+                <button id="reset">Restart Game</button>
+            </div>
+
+            <div id="tile_rack" class="ui-widget-header">
+            </div>
+
+        </div>
+
+        <!--scripts-->
+        <script src="js/scrabble.js"></script>
+    </body>
+</html>
